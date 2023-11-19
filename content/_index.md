@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: 'My Portfolio'
 date: 2022-10-24
 type: landing
 
@@ -36,12 +36,14 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
+        
   - block: about.biography
     id: about
     content:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+      
   - block: skills
     content:
       title: Skills
@@ -50,6 +52,7 @@ sections:
       username: admin
     design:
       columns: '1'
+      
   - block: experience
     content:
       title: Experience
@@ -85,6 +88,7 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
+      
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -127,6 +131,7 @@ sections:
           url: ''
     design:
       columns: '2'
+      
   - block: collection
     id: posts
     content:
@@ -200,6 +205,7 @@ sections:
     design:
       columns: '2'
       view: card
+      
   - block: collection
     content:
       title: Recent Publications
@@ -229,6 +235,7 @@ sections:
       title: Popular Topics
     design:
       columns: '2'
+      
   - block: contact
     id: contact
     content:
